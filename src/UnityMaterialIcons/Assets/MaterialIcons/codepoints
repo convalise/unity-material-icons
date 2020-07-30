@@ -78,6 +78,7 @@ add_moderator e97d
 add_photo_alternate e43e
 add_road ef3b
 add_shopping_cart e854
+add_task f23a
 add_to_drive e65c
 add_to_home_screen e1fe
 add_to_photos e39d
@@ -337,6 +338,7 @@ connect_without_contact f223
 connected_tv e998
 construction ea3c
 contact_mail e0d0
+contact_page f22e
 contact_phone e0cf
 contact_support e94c
 contactless ea71
@@ -407,6 +409,7 @@ directions_subway e533
 directions_transit e535
 directions_walk e536
 dirty_lens ef4b
+disabled_by_default f230
 disc_full e610
 dns e875
 do_not_disturb e612
@@ -496,6 +499,7 @@ exposure_zero e3cf
 extension e87b
 face e87c
 face_retouching_natural ef4e
+facebook f234
 fact_check f0c5
 family_restroom f1a2
 fast_forward e01f
@@ -628,6 +632,7 @@ grid_view e9b0
 group e7ef
 group_add e7f0
 group_work e886
+groups f233
 hail e9b1
 handyman f10b
 hardware ea59
@@ -808,6 +813,7 @@ loop e028
 loupe e402
 low_priority e16d
 loyalty e89a
+luggage f235
 lunch_dining ea61
 mail e158
 mail_outline e0e1
@@ -863,6 +869,7 @@ more_time ea5d
 more_vert e5d4
 motion_photos_off e9c0
 motion_photos_on e9c1
+motion_photos_pause f227
 motion_photos_paused e9c2
 motorcycle e91b
 mouse e323
@@ -898,12 +905,15 @@ night_shelter f1f1
 nightlife ea62
 nightlight_round ef5e
 nights_stay ea46
+no_backpack f237
 no_cell f1a4
 no_drinks f1a5
 no_encryption e641
 no_flash f1a6
 no_food f1a7
+no_luggage f23b
 no_meals f1d6
+no_meals_ouline f229
 no_meeting_room eb4e
 no_photography f1a8
 no_sim e0cc
@@ -935,6 +945,7 @@ open_in_browser e89d
 open_in_full f1ce
 open_in_new e89e
 open_with e89f
+outbond f228
 outbox ef5f
 outdoor_grill ea47
 outgoing_mail f0d2
@@ -1062,6 +1073,7 @@ psychology ea4a
 public e80b
 public_off f1ca
 publish e255
+published_with_changes f232
 push_pin f10d
 qr_code ef6b
 qr_code_scanner f206
@@ -1110,6 +1122,7 @@ reply_all e15f
 report e160
 report_off e170
 report_problem e8b2
+request_page f22c
 request_quote f1b6
 reset_tv e9d9
 restaurant e56c
@@ -1266,6 +1279,7 @@ sports_tennis ea32
 sports_volleyball ea31
 square_foot ea49
 stacked_bar_chart e9e6
+stacked_line_chart f22b
 stairs f1a9
 star e838
 star_border e83a
@@ -1399,6 +1413,7 @@ unarchive e169
 undo e166
 unfold_less e5d6
 unfold_more e5d7
+unpublished f236
 unsubscribe e0eb
 update e923
 upgrade f0fb
