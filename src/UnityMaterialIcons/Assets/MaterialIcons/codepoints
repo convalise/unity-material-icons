@@ -104,6 +104,12 @@ alarm_add e856
 alarm_off e857
 alarm_on e858
 album e019
+align_horizontal_center e00f
+align_horizontal_left e00d
+align_horizontal_right e010
+align_vertical_bottom e015
+align_vertical_center e011
+align_vertical_top e00c
 all_inbox e97f
 all_inclusive eb3d
 all_out e90b
@@ -663,6 +669,7 @@ home e88a
 home_filled e9b2
 home_repair_service f100
 home_work ea09
+horizontal_distribute e014
 horizontal_rule f108
 horizontal_split e947
 hot_tub eb46
@@ -1076,6 +1083,7 @@ publish e255
 published_with_changes f232
 push_pin f10d
 qr_code ef6b
+qr_code_2 e00a
 qr_code_scanner f206
 query_builder e8ae
 question_answer e8af
@@ -1416,6 +1424,7 @@ unfold_more e5d7
 unpublished f236
 unsubscribe e0eb
 update e923
+update_disabled e075
 upgrade f0fb
 upload_file e9fc
 usb e1e0
@@ -1424,6 +1433,7 @@ verified_user e8e8
 vertical_align_bottom e258
 vertical_align_center e259
 vertical_align_top e25a
+vertical_distribute e076
 vertical_split e949
 vibration e62d
 video_call e070
