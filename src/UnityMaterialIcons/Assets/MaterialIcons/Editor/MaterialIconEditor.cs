@@ -61,7 +61,9 @@ public class MaterialIconEditor : UnityEditor.UI.TextEditor
 			MaterialIconSelectionWindow.Init(MaterialIconsRegular, icon.text, (selected) => {
 				Undo.RecordObject(icon, "Inspector");
 				icon.text = selected;
+				EditorUtility.SetDirty(icon);
 				iconTooltip = new GUIContent(string.Empty, icon.iconUnicode);
+				Repaint();
 			});
 		}
 		GUI.Label(irect, icon.text, iconStyle);

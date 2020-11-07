@@ -30,7 +30,7 @@ public class MaterialIconSelectionWindow : EditorWindow
 	private CodepointData[] CodepointsCollection;
 
 	private GUIStyle toolbarSeachTextFieldStyle;
-//	private GUIStyle toolbarSeachCancelButtonStyle;
+	private GUIStyle toolbarSeachCancelButtonStyle;
 	private GUIStyle toolbarSeachCancelButtonEmptyStyle;
 	private GUIStyle toolbarLabelStyle;
 	private GUIStyle iconImageStyle;
@@ -55,7 +55,7 @@ public class MaterialIconSelectionWindow : EditorWindow
 		foreach(string codepoint in File.ReadAllLines(codepointsPath))
 		{
 			string[] data = codepoint.Split(' ');
-			tempList.Add(new CodepointData(data[0].ToLowerInvariant().Replace('_', ' '), data[1]));
+			tempList.Add(new CodepointData(data[0], data[1]));
 		}
 
 		CodepointsCollection = tempList.ToArray();
@@ -82,7 +82,7 @@ public class MaterialIconSelectionWindow : EditorWindow
 		if((toolbarSeachTextFieldStyle == null) || (iconImageStyle == null))
 		{
 			toolbarSeachTextFieldStyle = new GUIStyle("ToolbarSeachTextField");
-//			toolbarSeachCancelButtonStyle = new GUIStyle("ToolbarSeachCancelButton");
+			toolbarSeachCancelButtonStyle = new GUIStyle("ToolbarSeachCancelButton");
 			toolbarSeachCancelButtonEmptyStyle = new GUIStyle("ToolbarSeachCancelButtonEmpty");
 			toolbarLabelStyle = new GUIStyle(EditorStyles.label) { alignment = TextAnchor.MiddleCenter };
 			iconImageStyle = new GUIStyle() { font = MaterialIconsRegular, alignment = TextAnchor.MiddleCenter };
@@ -119,11 +119,11 @@ public class MaterialIconSelectionWindow : EditorWindow
 		clearRect.y += 1.5f;
 
 		GUI.Label(clearRect, GUIContent.none, toolbarSeachCancelButtonEmptyStyle);
-//		if(GUI.Button(clearRect, GUIContent.none, string.IsNullOrEmpty(filterText) ? toolbarSeachCancelButtonEmptyStyle : toolbarSeachCancelButtonStyle))
-//		{
-//			filterText = string.Empty;
-//			GUI.FocusControl(null);
-//		}
+		if(GUI.Button(clearRect, GUIContent.none, string.IsNullOrEmpty(filterText) ? toolbarSeachCancelButtonEmptyStyle : toolbarSeachCancelButtonStyle))
+		{
+			filterText = string.Empty;
+			GUI.FocusControl(null);
+		}
 
 		if(!filterGotFocus)
 		{
@@ -170,7 +170,7 @@ public class MaterialIconSelectionWindow : EditorWindow
 		{
 			var data = CodepointsCollection[i];
 
-			if(!string.IsNullOrEmpty(filterText) && filterText.Split(' ').Any(filter => data.name.IndexOf(filter, System.StringComparison.OrdinalIgnoreCase) < 0))
+			if(!string.IsNullOrEmpty(filterText) && filterText.Split(' ').Any(filter => data.nameGUIContent.text.IndexOf(filter, System.StringComparison.OrdinalIgnoreCase) < 0))
 				continue;
 
 			if(k++ % c == 0)
@@ -241,10 +241,10 @@ public class MaterialIconSelectionWindow : EditorWindow
 
 		public CodepointData(string name, string code)
 		{
-			this.name = string.Format("{0} ({1})", name, code);
+			this.name = name;
 			this.code = code;
-			this.nameGUIContent = new GUIContent(this.name);
-			this.codeGUIContent = new GUIContent(char.ConvertFromUtf32(System.Convert.ToInt32(this.code, 16)), this.name);
+			this.nameGUIContent = new GUIContent(string.Format("{0} ({1})", name.ToLowerInvariant().Replace('_', ' '), code));
+			this.codeGUIContent = new GUIContent(char.ConvertFromUtf32(System.Convert.ToInt32(this.code, 16)), this.nameGUIContent.text);
 		}
 
 	}
