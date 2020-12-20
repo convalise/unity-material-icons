@@ -187,9 +187,10 @@ auto_awesome e65f
 auto_awesome_mosaic e660
 auto_awesome_motion e661
 auto_delete ea4c
-auto_fix_high e665
+auto_fix_high e663
 auto_fix_normal e664
-auto_fix_off e663
+auto_fix_off e665
+auto_graph e4fb
 auto_stories e666
 autofps_select efdc
 autorenew e863
@@ -321,6 +322,7 @@ casino eb40
 cast e307
 cast_connected e308
 cast_for_education efec
+catching_pokemon e508
 category e574
 celebration ea65
 cell_wifi e0ec
@@ -365,6 +367,7 @@ cloud_off e2c1
 cloud_queue e2c2
 cloud_upload e2c3
 code e86f
+code_off e4f3
 coffee efef
 coffee_maker eff0
 collections e3b6
@@ -379,7 +382,7 @@ compare_arrows e915
 compass_calibration e57c
 compress e94d
 computer e30a
-confirmation_num e838
+confirmation_num e638
 confirmation_number e638
 connect_without_contact f223
 connected_tv e998
@@ -393,6 +396,7 @@ contacts e0ba
 content_copy e14d
 content_cut e14e
 content_paste e14f
+content_paste_off e4f8
 control_camera e074
 control_point e3ba
 control_point_duplicate e3bb
@@ -404,6 +408,7 @@ countertops f1f7
 create e150
 create_new_folder e2cc
 credit_card e870
+credit_card_off e4f4
 credit_score eff1
 crop e3be
 crop_16_9 e3bc
@@ -418,6 +423,7 @@ crop_portrait e3c5
 crop_rotate e437
 crop_square e3c6
 dangerous e99a
+dark_mode e51c
 dashboard e871
 dashboard_customize e99b
 data_saver_off eff2
@@ -439,6 +445,7 @@ desktop_mac e30b
 desktop_windows e30c
 details e3c8
 developer_board e30d
+developer_board_off e4ff
 developer_mode e1b0
 device_hub e335
 device_thermostat e1ff
@@ -499,6 +506,7 @@ door_front effd
 door_sliding effe
 doorbell efff
 double_arrow ea50
+downhill_skiing e509
 download f090
 download_done f091
 download_for_offline f000
@@ -528,6 +536,7 @@ edit e3c9
 edit_attributes e578
 edit_location e568
 edit_location_alt e1c5
+edit_notifications e525
 edit_off e950
 edit_road ef4d
 eject e8fb
@@ -581,6 +590,7 @@ exposure_plus_1 e3cd
 exposure_plus_2 e3ce
 exposure_zero e3cf
 extension e87b
+extension_off e4f5
 face e87c
 face_retouching_natural ef4e
 face_retouching_off f007
@@ -607,6 +617,7 @@ fiber_smart_record e062
 file_copy e173
 file_download e2c4
 file_download_done e9aa
+file_download_off e4fe
 file_present ea0e
 file_upload e2c6
 filter e3d3
@@ -658,6 +669,7 @@ flip_camera_ios ea38
 flip_to_back e882
 flip_to_front e883
 flourescent f00d
+flutter_dash e00b
 fmd_bad f00e
 fmd_good f00f
 folder e2c7
@@ -666,6 +678,7 @@ folder_shared e2c9
 folder_special e617
 follow_the_signs f222
 font_download e167
+font_download_off e4f9
 food_bank f1f2
 format_align_center e234
 format_align_justify e235
@@ -772,6 +785,7 @@ highlight e25f
 highlight_alt ef52
 highlight_off e888
 highlight_remove e888
+hiking e50a
 history e889
 history_edu ea3e
 history_toggle_off f17d
@@ -798,6 +812,7 @@ how_to_vote e175
 http e902
 https e88d
 hvac f10e
+ice_skating e50b
 icecream ea69
 image e3f4
 image_aspect_ratio e3f5
@@ -829,6 +844,7 @@ invert_colors_off e0c4
 invert_colors_on e891
 ios_share e6b8
 iso e3f6
+kayaking e50c
 keyboard e312
 keyboard_alt f028
 keyboard_arrow_down e313
@@ -844,6 +860,7 @@ keyboard_tab e31c
 keyboard_voice e31d
 king_bed ea45
 kitchen eb47
+kitesurfing e50d
 label e892
 label_important e937
 label_important_outline e948
@@ -871,6 +888,7 @@ library_add_check e9b7
 library_books e02f
 library_music e030
 light f02a
+light_mode e518
 lightbulb e0f0
 lightbulb_outline e90f
 line_style e919
@@ -888,7 +906,7 @@ living f02b
 local_activity e53f
 local_airport e53d
 local_atm e53e
-local_attraction e553
+local_attraction e53f
 local_bar e540
 local_cafe e541
 local_car_wash e542
@@ -915,7 +933,7 @@ local_police ef56
 local_post_office e554
 local_print_shop e555
 local_printshop e555
-local_restaurant e561
+local_restaurant e556
 local_see e557
 local_shipping e558
 local_taxi e559
@@ -976,8 +994,8 @@ menu_book ea19
 menu_open e9bd
 merge_type e252
 message e0c9
-messenger e0cb
-messenger_outline e0ca
+messenger e0ca
+messenger_outline e0cb
 mic e029
 mic_external_off ef59
 mic_external_on ef5a
@@ -1025,6 +1043,7 @@ move_to_inbox e168
 movie e02c
 movie_creation e404
 movie_filter e43a
+moving e501
 mp e9c3
 multiline_chart e6df
 multiple_stop f1b9
@@ -1076,6 +1095,7 @@ no_photography f1a8
 no_sim e0cc
 no_stroller f1af
 no_transfer f1d5
+nordic_walking e50e
 north f1e0
 north_east f1e1
 north_west f1e2
@@ -1087,6 +1107,7 @@ note e06f
 note_add e89c
 note_alt f040
 notes e26c
+notification_add e399
 notification_important e004
 notifications e7f4
 notifications_active e7f7
@@ -1105,6 +1126,7 @@ opacity e91c
 open_in_browser e89d
 open_in_full f1ce
 open_in_new e89e
+open_in_new_off e4f6
 open_with e89f
 outbond f228
 outbound e1ca
@@ -1130,6 +1152,7 @@ panorama_vertical e40e
 panorama_vertical_select ef61
 panorama_wide_angle e40f
 panorama_wide_angle_select ef62
+paragliding e50f
 park ea63
 party_mode e7fa
 password f042
@@ -1151,7 +1174,7 @@ perm_camera_mic e8a2
 perm_contact_cal e8a3
 perm_contact_calendar e8a3
 perm_data_setting e8a4
-perm_device_info f05a
+perm_device_info e8a5
 perm_device_information e8a5
 perm_identity e8a6
 perm_media e8a7
@@ -1162,6 +1185,7 @@ person_add e7fe
 person_add_alt ea4d
 person_add_alt_1 ef65
 person_add_disabled e9cb
+person_off e510
 person_outline e7ff
 person_pin e55a
 person_pin_circle e56a
@@ -1200,6 +1224,8 @@ photo_library e413
 photo_size_select_actual e432
 photo_size_select_large e433
 photo_size_select_small e434
+piano e521
+piano_off e520
 picture_as_pdf e415
 picture_in_picture e8aa
 picture_in_picture_alt e911
@@ -1258,6 +1284,7 @@ qr_code ef6b
 qr_code_2 e00a
 qr_code_scanner f206
 query_builder e8ae
+query_stats e4fc
 question_answer e8af
 queue e03c
 queue_music e03d
@@ -1341,8 +1368,10 @@ rtt e9ad
 rule f1c2
 rule_folder f1c9
 run_circle ef6f
+running_with_errors e51d
 rv_hookup e642
 safety_divider e1cc
+sailing e502
 sanitizer f21d
 satellite e562
 save e161
@@ -1353,6 +1382,7 @@ scanner e329
 scatter_plot e268
 schedule e8b5
 schedule_send ea0a
+schema e4fd
 school e80c
 science ea4b
 score e269
@@ -1382,6 +1412,8 @@ send_and_archive ea0c
 send_to_mobile f05c
 sensor_door f1b5
 sensor_window f1b4
+sensors e51e
+sensors_off e51f
 sentiment_dissatisfied e811
 sentiment_neutral e812
 sentiment_satisfied e813
@@ -1411,6 +1443,7 @@ settings_suggest f05e
 settings_system_daydream e1c3
 settings_voice e8c8
 share e80d
+share_arrival_time e524
 share_location f05f
 shield e9e0
 shop e8c9
@@ -1450,8 +1483,10 @@ sim_card_alert e624
 sim_card_download f068
 single_bed ea48
 sip f069
+skateboarding e511
 skip_next e044
 skip_previous e045
+sledding e512
 slideshow e41b
 slow_motion_video e068
 smart_button f1c1
@@ -1465,11 +1500,14 @@ sms e625
 sms_failed e626
 snippet_folder f1c7
 snooze e046
+snowboarding e513
+snowmobile e503
+snowshoeing e514
 soap f1b2
 social_distance e1cb
 sort e164
 sort_by_alpha e053
-source f1c8
+source f1c4
 south f1e3
 south_east f1e4
 south_west f1e5
@@ -1546,6 +1584,7 @@ supervised_user_circle e939
 supervisor_account e8d3
 support ef73
 support_agent f0e2
+surfing e515
 surround_sound e049
 swap_calls e0d7
 swap_horiz e8d4
@@ -1624,7 +1663,7 @@ toggle_off e9f5
 toggle_on e9f6
 toll e8e0
 tonality e427
-topic f1c4
+topic f1c8
 touch_app e913
 tour ef75
 toys e332
@@ -1665,6 +1704,7 @@ upgrade f0fb
 upload f09b
 upload_file e9fc
 usb e1e0
+usb_off e4fa
 verified ef76
 verified_user e8e8
 vertical_align_bottom e258
@@ -1684,6 +1724,7 @@ video_stable f081
 videocam e04b
 videocam_off e04c
 videogame_asset e338
+videogame_asset_off e500
 view_agenda e8e9
 view_array e8ea
 view_carousel e8eb
@@ -1738,6 +1779,7 @@ wb_twilight e1c6
 wc e63d
 web e051
 web_asset e069
+web_asset_off e4f7
 weekend e16b
 west f1e6
 whatshot e80e
