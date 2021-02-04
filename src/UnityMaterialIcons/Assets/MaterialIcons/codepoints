@@ -202,6 +202,7 @@ backup e864
 backup_table ef43
 badge ea67
 bakery_dining ea53
+balcony e58f
 ballot e172
 bar_chart e26b
 batch_prediction f0f5
@@ -241,8 +242,11 @@ bolt ea0b
 book e865
 book_online f217
 bookmark e866
+bookmark_add e598
+bookmark_added e599
 bookmark_border e867
 bookmark_outline e867
+bookmark_remove e59a
 bookmarks e98b
 border_all e228
 border_bottom e229
@@ -277,10 +281,12 @@ bubble_chart e6dd
 bug_report e868
 build e869
 build_circle ef48
+bungalow e591
 burst_mode e43c
 bus_alert e98f
 business e0af
 business_center eb3f
+cabin e589
 cable efe6
 cached e86a
 cake e7e9
@@ -330,6 +336,7 @@ center_focus_strong e3b4
 center_focus_weak e3b5
 chair efed
 chair_alt efee
+chalet e585
 change_circle e2e7
 change_history e86b
 charging_station f19d
@@ -404,12 +411,14 @@ copy_all e2ec
 copyright e90c
 coronavirus f221
 corporate_fare f1d0
+cottage e587
 countertops f1f7
 create e150
 create_new_folder e2cc
 credit_card e870
 credit_card_off e4f4
 credit_score eff1
+crib e588
 crop e3be
 crop_16_9 e3bc
 crop_3_2 e3bd
@@ -607,6 +616,7 @@ featured_play_list e06d
 featured_video e06e
 feed f009
 feedback e87f
+female e590
 fence f1f6
 festival ea68
 fiber_dvr e05d
@@ -725,6 +735,7 @@ gavel e90e
 gesture e155
 get_app e884
 gif e908
+gite e58b
 golf_course eb45
 gpp_bad f012
 gpp_good f013
@@ -789,6 +800,7 @@ hiking e50a
 history e889
 history_edu ea3e
 history_toggle_off f17d
+holiday_village e58a
 home e88a
 home_filled e9b2
 home_max f024
@@ -807,6 +819,7 @@ hourglass_full e88c
 hourglass_top ea5b
 house ea44
 house_siding f202
+houseboat e584
 how_to_reg e174
 how_to_vote e175
 http e902
@@ -843,6 +856,7 @@ invert_colors e891
 invert_colors_off e0c4
 invert_colors_on e891
 ios_share e6b8
+iron e583
 iso e3f6
 kayaking e50c
 keyboard e312
@@ -967,6 +981,7 @@ luggage f235
 lunch_dining ea61
 mail e158
 mail_outline e0e1
+male e58e
 manage_accounts f02e
 manage_search f02f
 map e55b
@@ -1128,6 +1143,7 @@ open_in_full f1ce
 open_in_new e89e
 open_in_new_off e4f6
 open_with e89f
+other_houses e58c
 outbond f228
 outbound e1ca
 outbox ef5f
@@ -1402,6 +1418,7 @@ search_off ea76
 security e32a
 security_update f058
 security_update_good f059
+security_update_warning f05a
 security_update_warning f074
 segment e94b
 select_all e162
@@ -1673,6 +1690,7 @@ train e570
 tram e571
 transfer_within_a_station e572
 transform e428
+transgender e58d
 transit_enterexit e579
 translate e8e2
 travel_explore e2db
@@ -1742,6 +1760,7 @@ view_sidebar f114
 view_stream e8f2
 view_week e8f3
 vignette e435
+villa e586
 visibility e8f4
 visibility_off e8f5
 voice_chat e62e
@@ -1780,6 +1799,7 @@ wc e63d
 web e051
 web_asset e069
 web_asset_off e4f7
+web_stories e595
 weekend e16b
 west f1e6
 whatshot e80e
