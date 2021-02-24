@@ -502,6 +502,7 @@ do_not_disturb_on_total_silence effb
 do_not_step f19f
 do_not_touch f1b0
 dock e30e
+document_scanner e5fa
 domain e7ee
 domain_disabled e0ef
 domain_verification ef4c
