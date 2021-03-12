@@ -348,6 +348,8 @@ check_box e834
 check_box_outline_blank e835
 check_circle e86c
 check_circle_outline e92d
+checklist e6b1
+checklist_rtl e6b3
 checkroom f19e
 chevron_left e5cb
 chevron_right e5cc
@@ -1210,6 +1212,7 @@ person_pin_circle e56a
 person_remove ef66
 person_remove_alt_1 ef67
 person_search f106
+personal_injury e6da
 personal_video e63b
 pest_control f0fa
 pest_control_rodent f0fd
@@ -1324,6 +1327,7 @@ rate_review e560
 raw_off f04f
 raw_on f050
 read_more ef6d
+real_estate_agent e73a
 receipt e8b0
 receipt_long ef6e
 recent_actors e03f
@@ -1532,6 +1536,7 @@ south_east f1e4
 south_west f1e5
 spa eb4c
 space_bar e256
+space_dashboard e66b
 speaker e32d
 speaker_group e32e
 speaker_notes e8cd
