@@ -91,7 +91,7 @@ public class MaterialIconSelectionWindow : EditorWindow
 			toolbarSeachCancelButtonEmptyStyle = new GUIStyle("ToolbarSeachCancelButtonEmpty");
 			toolbarLabelStyle = new GUIStyle(EditorStyles.label) { alignment = TextAnchor.MiddleCenter };
 			iconSelectionStyle = new GUIStyle("selectionrect");
-			iconImageStyle = new GUIStyle() { font = MaterialIconsRegular, fontSize = iconSize - spacing, alignment = TextAnchor.MiddleCenter };
+			iconImageStyle = new GUIStyle() { font = MaterialIconsRegular, fontSize = iconSize - spacing - 10, alignment = TextAnchor.MiddleCenter };
 			iconLabelStyle = new GUIStyle(EditorStyles.miniLabel) { alignment = TextAnchor.UpperCenter, wordWrap = true };
 			iconImageStyle.padding = iconLabelStyle.padding = new RectOffset();
 			iconImageStyle.normal.textColor = iconLabelStyle.normal.textColor = EditorGUIUtility.isProSkin ? lightColor : darkColor;

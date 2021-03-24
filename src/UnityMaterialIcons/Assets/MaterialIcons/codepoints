@@ -526,6 +526,7 @@ downloading f001
 drafts e151
 drag_handle e25d
 drag_indicator e945
+draw e746
 drive_eta e613
 drive_file_move e675
 drive_file_move_outline e9a1
@@ -546,8 +547,10 @@ edgesensor_high f005
 edgesensor_low f006
 edit e3c9
 edit_attributes e578
+edit_calendar e742
 edit_location e568
 edit_location_alt e1c5
+edit_note e745
 edit_notifications e525
 edit_off e950
 edit_road ef4d
@@ -561,6 +564,7 @@ electric_scooter eb1f
 electrical_services f102
 elevator f1a0
 email e0be
+emergency e1eb
 emoji_emotions ea22
 emoji_events ea23
 emoji_flags ea1a
@@ -726,6 +730,7 @@ forward_5 e058
 forward_to_inbox f187
 foundation f200
 free_breakfast eb44
+free_cancellation e748
 fullscreen e5d0
 fullscreen_exit e5d1
 functions e24a
@@ -735,6 +740,7 @@ gamepad e30f
 games e021
 garage f011
 gavel e90e
+generating_tokens e749
 gesture e155
 get_app e884
 gif e908
@@ -760,6 +766,7 @@ grid_on e3ec
 grid_view e9b0
 group e7ef
 group_add e7f0
+group_off e747
 group_work e886
 groups f233
 h_mobiledata f018
@@ -815,6 +822,7 @@ horizontal_rule f108
 horizontal_split e947
 hot_tub eb46
 hotel e53a
+hotel_class e743
 hourglass_bottom ea5c
 hourglass_disabled ef53
 hourglass_empty e88b
@@ -1294,6 +1302,7 @@ print e8ad
 print_disabled e9cf
 priority_high e645
 privacy_tip f0dc
+private_connectivity e744
 production_quantity_limits e1d1
 psychology ea4a
 public e80b
