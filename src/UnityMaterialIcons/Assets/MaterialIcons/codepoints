@@ -97,6 +97,7 @@ add_to_queue e05c
 addchart ef3c
 adjust e39e
 admin_panel_settings ef3d
+ads_click e762
 agriculture ea79
 air efd8
 airline_seat_flat e630
@@ -196,6 +197,7 @@ autofps_select efdc
 autorenew e863
 av_timer e01b
 baby_changing_station f19b
+back_hand e764
 backpack f19c
 backspace e14a
 backup e864
@@ -389,6 +391,7 @@ commute e940
 compare e3b9
 compare_arrows e915
 compass_calibration e57c
+compost e761
 compress e94d
 computer e30a
 confirmation_num e638
@@ -731,6 +734,7 @@ forward_to_inbox f187
 foundation f200
 free_breakfast eb44
 free_cancellation e748
+front_hand e769
 fullscreen e5d0
 fullscreen_exit e5d1
 functions e24a
@@ -1263,6 +1267,8 @@ pie_chart_outline f044
 pie_chart_outlined e6c5
 pin f045
 pin_drop e55e
+pin_end e767
+pin_invoke e763
 pivot_table_chart e9ce
 place e55f
 plagiarism ea5a
@@ -1342,6 +1348,7 @@ receipt_long ef6e
 recent_actors e03f
 recommend e9d2
 record_voice_over e91f
+recycling e760
 redeem e8b1
 redo e15a
 reduce_capacity f21c
@@ -1803,6 +1810,7 @@ water f084
 water_damage f203
 waterfall_chart ea00
 waves e176
+waving_hand e766
 wb_auto e42c
 wb_cloudy e42d
 wb_incandescent e42e
