@@ -147,6 +147,7 @@ approval e982
 apps e5c3
 architecture ea3b
 archive e149
+area_chart e770
 arrow_back e5c4
 arrow_back_ios e5e0
 arrow_back_ios_new e2ea
@@ -440,6 +441,7 @@ dangerous e99a
 dark_mode e51c
 dashboard e871
 dashboard_customize e99b
+data_exploration e76f
 data_saver_off eff2
 data_saver_on eff3
 data_usage e1af
@@ -492,6 +494,7 @@ directions_transit_filled effa
 directions_walk e536
 dirty_lens ef4b
 disabled_by_default f230
+disabled_visible e76e
 disc_full e610
 dnd_forwardslash e611
 dns e875
@@ -533,6 +536,7 @@ draw e746
 drive_eta e613
 drive_file_move e675
 drive_file_move_outline e9a1
+drive_file_move_rtl e76d
 drive_file_rename_outline e9a2
 drive_folder_upload e9a3
 dry f1b3
