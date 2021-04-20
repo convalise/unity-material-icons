@@ -437,6 +437,7 @@ crop_original e3c4
 crop_portrait e3c5
 crop_rotate e437
 crop_square e3c6
+cruelty_free e799
 dangerous e99a
 dark_mode e51c
 dashboard e871
@@ -855,6 +856,7 @@ import_contacts e0e0
 import_export e0c3
 important_devices e912
 inbox e156
+incomplete_circle e79b
 indeterminate_check_box e909
 info e88e
 info_outline e88f
@@ -1700,6 +1702,7 @@ timer_10_select f07a
 timer_3 e424
 timer_3_select f07b
 timer_off e426
+tips_and_updates e79a
 title e264
 toc e8de
 today e8df
@@ -1794,6 +1797,7 @@ voice_chat e62e
 voice_over_off e94a
 voicemail e0d9
 volume_down e04d
+volume_down_alt e79c
 volume_mute e04e
 volume_off e04f
 volume_up e050
@@ -1812,6 +1816,7 @@ watch e334
 watch_later e924
 water f084
 water_damage f203
+water_drop e798
 waterfall_chart ea00
 waves e176
 waving_hand e766
