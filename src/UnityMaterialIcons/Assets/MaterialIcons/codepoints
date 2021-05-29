@@ -108,6 +108,8 @@ airline_seat_legroom_normal e634
 airline_seat_legroom_reduced e635
 airline_seat_recline_extra e636
 airline_seat_recline_normal e637
+airline_stops e7d0
+airlines e7ca
 airplane_ticket efd9
 airplanemode_active e195
 airplanemode_inactive e194
@@ -145,6 +147,7 @@ app_registration ef40
 app_settings_alt ef41
 approval e982
 apps e5c3
+apps_outage e7cc
 architecture ea3b
 archive e149
 area_chart e770
@@ -278,6 +281,7 @@ brightness_low e1ad
 brightness_medium e1ae
 broken_image e3ad
 browser_not_supported ef47
+browser_updated e7cf
 brunch_dining ea73
 brush e3ae
 bubble_chart e6dd
@@ -401,6 +405,7 @@ confirmation_num e638
 confirmation_number e638
 connect_without_contact f223
 connected_tv e998
+connecting_airports e7c9
 construction ea3c
 contact_mail e0d0
 contact_page f22e
@@ -602,6 +607,7 @@ event_note e616
 event_seat e903
 exit_to_app e879
 expand e94f
+expand_circle_down e7cd
 expand_less e5ce
 expand_more e5cf
 explicit e01e
@@ -688,6 +694,7 @@ flashlight_off f00a
 flashlight_on f00b
 flatware f00c
 flight e539
+flight_class e7cb
 flight_land e904
 flight_takeoff e905
 flip e3e8
@@ -875,6 +882,7 @@ insert_link e250
 insert_photo e251
 insights f092
 integration_instructions ef54
+interests e7c8
 inventory e179
 inventory_2 e1a1
 invert_colors e891
@@ -1056,6 +1064,7 @@ mode_comment e253
 mode_edit e254
 mode_edit_outline f035
 mode_night f036
+mode_of_travel e7ce
 mode_standby f037
 model_training f0cf
 monetization_on e263
@@ -1556,6 +1565,7 @@ soap f1b2
 social_distance e1cb
 sort e164
 sort_by_alpha e053
+soup_kitchen e7d3
 source f1c4
 south f1e3
 south_east f1e4
