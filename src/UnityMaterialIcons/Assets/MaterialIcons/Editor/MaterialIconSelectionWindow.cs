@@ -226,9 +226,12 @@ public class MaterialIconSelectionWindow : EditorWindow
 				if(GUI.Button(buttonRect, GUIContent.none, GUIStyle.none))
 				{
 					GUI.FocusControl(null);
+					bool shouldClose = data.codeGUIContent.text == selected;
 					selected = data.codeGUIContent.text;
 					selectedName = data.name;
 					onSelectionChanged.Invoke(selected);
+					if(shouldClose)
+						base.Close();
 				}
 			}
 		}
