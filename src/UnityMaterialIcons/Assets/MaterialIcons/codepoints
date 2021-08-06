@@ -157,6 +157,8 @@ arrow_back e5c4
 arrow_back_ios e5e0
 arrow_back_ios_new e2ea
 arrow_circle_down f181
+arrow_circle_left eaa7
+arrow_circle_right eaaa
 arrow_circle_up f182
 arrow_downward e5db
 arrow_drop_down e5c5
@@ -337,6 +339,7 @@ casino eb40
 cast e307
 cast_connected e308
 cast_for_education efec
+castle eab1
 catching_pokemon e508
 category e574
 celebration ea65
@@ -365,6 +368,7 @@ chevron_right e5cc
 child_care eb41
 child_friendly eb42
 chrome_reader_mode e86d
+church eaae
 circle ef4a
 circle_notifications e994
 class e86e
@@ -425,6 +429,7 @@ content_paste_search ea9b
 control_camera e074
 control_point e3ba
 control_point_duplicate e3bb
+cookie eaac
 copy_all e2ec
 copyright e90c
 coronavirus f221
@@ -748,6 +753,7 @@ format_textdirection_l_to_r e247
 format_textdirection_r_to_l e248
 format_underline e249
 format_underlined e249
+fort eaad
 forum e0bf
 forward e154
 forward_10 e056
@@ -839,6 +845,7 @@ hiking e50a
 history e889
 history_edu ea3e
 history_toggle_off f17d
+hive eaa6
 holiday_village e58a
 home e88a
 home_filled e9b2
@@ -1096,6 +1103,7 @@ more e619
 more_horiz e5d3
 more_time ea5d
 more_vert e5d4
+mosque eab2
 motion_photos_auto f03a
 motion_photos_off e9c0
 motion_photos_on e9c1
@@ -1353,6 +1361,7 @@ public e80b
 public_off f1ca
 publish e255
 published_with_changes f232
+punch_clock eaa8
 push_pin f10d
 qr_code ef6b
 qr_code_2 e00a
@@ -1435,6 +1444,7 @@ room e8b4
 room_preferences f1b8
 room_service eb49
 rotate_90_degrees_ccw e418
+rotate_90_degrees_cw eaab
 rotate_left e419
 rotate_right e41a
 rounded_corner e920
@@ -1525,6 +1535,7 @@ share e80d
 share_arrival_time e524
 share_location f05f
 shield e9e0
+shield_moon eaa9
 shop e8c9
 shop_2 e19e
 shop_two e8ca
@@ -1688,6 +1699,7 @@ switch_camera e41e
 switch_left f1d1
 switch_right f1d2
 switch_video e41f
+synagogue eab0
 sync e627
 sync_alt ea18
 sync_disabled e628
@@ -1715,6 +1727,8 @@ task f075
 task_alt e2e6
 taxi_alert ef74
 telegram ea6b
+temple_buddhist eab3
+temple_hindu eaaf
 terrain e564
 text_fields e262
 text_format e165
