@@ -214,6 +214,7 @@ backup e864
 backup_table ef43
 badge ea67
 bakery_dining ea53
+balance eaf6
 balcony e58f
 ballot e172
 bar_chart e26b
@@ -390,9 +391,11 @@ cloud_done e2bf
 cloud_download e2c0
 cloud_off e2c1
 cloud_queue e2c2
+cloud_sync eb5a
 cloud_upload e2c3
 cloudy_snowing e810
 co2 e7b0
+co_present eaf0
 code e86f
 code_off e4f3
 coffee efef
@@ -404,6 +407,7 @@ colorize e3b8
 comment e0b9
 comment_bank ea4e
 comments_disabled e7a2
+commit eaf5
 commute e940
 compare e3b9
 compare_arrows e915
@@ -429,6 +433,7 @@ content_paste e14f
 content_paste_go ea8e
 content_paste_off e4f8
 content_paste_search ea9b
+contrast eb37
 control_camera e074
 control_point e3ba
 control_point_duplicate e3bb
@@ -458,6 +463,13 @@ crop_portrait e3c5
 crop_rotate e437
 crop_square e3c6
 cruelty_free e799
+currency_franc eafa
+currency_lira eaef
+currency_pound eaf1
+currency_ruble eaec
+currency_rupee eaf7
+currency_yen eafb
+currency_yuan eaf9
 dangerous e99a
 dark_mode e51c
 dashboard e871
@@ -671,6 +683,7 @@ file_copy e173
 file_download e2c4
 file_download_done e9aa
 file_download_off e4fe
+file_open eaf3
 file_present ea0e
 file_upload e2c6
 filter e3d3
@@ -685,6 +698,7 @@ filter_8 e3d8
 filter_9 e3d9
 filter_9_plus e3da
 filter_alt ef4f
+filter_alt_off eb32
 filter_b_and_w e3db
 filter_center_focus e3dc
 filter_drama e3dd
@@ -692,6 +706,7 @@ filter_frames e3de
 filter_hdr e3df
 filter_list e152
 filter_list_alt e94e
+filter_list_off eb57
 filter_none e3e0
 filter_tilt_shift e3e2
 filter_vintage e3e3
@@ -706,6 +721,7 @@ fit_screen ea10
 fitbit e82b
 fitness_center eb43
 flag e153
+flag_circle eaf8
 flaky ef50
 flare e3e4
 flash_auto e3e5
@@ -729,9 +745,11 @@ fmd_bad f00e
 fmd_good f00f
 foggy e818
 folder e2c7
+folder_delete eb34
 folder_open e2c8
 folder_shared e2c9
 folder_special e617
+folder_zip eb2c
 follow_the_signs f222
 font_download e167
 font_download_off e4f9
@@ -844,6 +862,7 @@ help e887
 help_center f1c0
 help_outline e8fd
 hevc f021
+hexagon eb39
 hide_image f022
 hide_source f023
 high_quality e024
@@ -920,6 +939,10 @@ invert_colors_on e891
 ios_share e6b8
 iron e583
 iso e3f6
+join_full eaeb
+join_inner eaf4
+join_left eaf2
+join_right eaea
 kayaking e50c
 kebab_dining e842
 key e73c
@@ -953,6 +976,7 @@ label_important e937
 label_important_outline e948
 label_off e9b6
 label_outline e893
+lan eb2f
 landscape e3f7
 language e894
 laptop e31e
@@ -1267,9 +1291,11 @@ paypal ea8d
 pedal_bike eb29
 pending ef64
 pending_actions f1bb
+pentagon eb50
 people e7fb
 people_alt ea21
 people_outline e7fc
+percent eb58
 perm_camera_mic e8a2
 perm_contact_cal e8a3
 perm_contact_calendar e8a3
@@ -1338,6 +1364,7 @@ pin f045
 pin_drop e55e
 pin_end e767
 pin_invoke e763
+pinch eb38
 pivot_table_chart e9ce
 pix eaa3
 place e55f
@@ -1422,6 +1449,7 @@ receipt_long ef6e
 recent_actors e03f
 recommend e9d2
 record_voice_over e91f
+rectangle eb54
 recycling e760
 reddit eaa0
 redeem e8b1
@@ -1489,6 +1517,7 @@ safety_divider e1cc
 sailing e502
 sanitizer f21d
 satellite e562
+satellite_alt eb3a
 save e161
 save_alt e171
 saved_search ea11
@@ -1657,6 +1686,7 @@ sports_golf ea2a
 sports_handball ea33
 sports_hockey ea2b
 sports_kabaddi ea34
+sports_martial_arts eae9
 sports_mma ea2c
 sports_motorsports ea2d
 sports_rugby ea2e
@@ -1664,6 +1694,7 @@ sports_score f06e
 sports_soccer ea2f
 sports_tennis ea32
 sports_volleyball ea31
+square eb36
 square_foot ea49
 stacked_bar_chart e9e6
 stacked_line_chart f22b
@@ -1721,6 +1752,15 @@ swap_vert e8d5
 swap_vert_circle e8d6
 swap_vertical_circle e8d6
 swipe e9ec
+swipe_down eb53
+swipe_down_alt eb30
+swipe_left eb59
+swipe_left_alt eb33
+swipe_right eb52
+swipe_right_alt eb56
+swipe_up eb2e
+swipe_up_alt eb35
+swipe_vertical eb51
 switch_access_shortcut e7e1
 switch_access_shortcut_add e7e2
 switch_account e9ed
@@ -1732,6 +1772,7 @@ synagogue eab0
 sync e627
 sync_alt ea18
 sync_disabled e628
+sync_lock eaee
 sync_problem e629
 system_security_update f072
 system_security_update_good f073
@@ -1940,6 +1981,7 @@ widgets e1bd
 wifi e63e
 wifi_calling ef77
 wifi_calling_3 f085
+wifi_find eb31
 wifi_lock e1e1
 wifi_off e648
 wifi_protected_setup f0fc
@@ -1965,5 +2007,6 @@ wysiwyg f1c3
 yard f089
 youtube_searched_for e8fa
 zoom_in e8ff
+zoom_in_map eb2d
 zoom_out e900
 zoom_out_map e56b
