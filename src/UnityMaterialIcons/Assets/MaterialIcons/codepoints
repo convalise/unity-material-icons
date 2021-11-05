@@ -1,6 +1,7 @@
 10k e951
 10mp e952
 11mp e953
+123 eb8d
 12mp e954
 13mp e955
 14mp e956
@@ -53,6 +54,7 @@
 9k e977
 9k_plus e978
 9mp e979
+abc eb94
 ac_unit eb3b
 access_alarm e190
 access_alarms e191
@@ -76,6 +78,7 @@ add_alert e003
 add_box e146
 add_business e729
 add_call e0e8
+add_card eb86
 add_chart e97b
 add_circle e147
 add_circle_outline e148
@@ -186,6 +189,7 @@ assistant e39f
 assistant_direction e988
 assistant_navigation e989
 assistant_photo e3a0
+assured_workload eb6f
 atm e573
 attach_email ea5e
 attach_file e226
@@ -193,6 +197,7 @@ attach_money e227
 attachment e2bc
 attractions ea52
 attribution efdb
+audio_file eb82
 audiotrack e3a1
 auto_awesome e65f
 auto_awesome_mosaic e660
@@ -233,6 +238,7 @@ bedroom_baby efe0
 bedroom_child efe1
 bedroom_parent efe2
 bedtime ef44
+bedtime_off eb76
 beenhere e52d
 bento f1f4
 bike_scooter ef45
@@ -273,6 +279,7 @@ border_right e230
 border_style e231
 border_top e232
 border_vertical e233
+boy eb67
 branding_watermark e06b
 breakfast_dining ea54
 brightness_1 e3a6
@@ -463,6 +470,8 @@ crop_portrait e3c5
 crop_rotate e437
 crop_square e3c6
 cruelty_free e799
+css eb93
+currency_exchange eb70
 currency_franc eafa
 currency_lira eaef
 currency_pound eaf1
@@ -481,6 +490,7 @@ data_saver_off eff2
 data_saver_on eff3
 data_usage e1af
 date_range e916
+deblur eb77
 deck ea42
 dehaze e3c7
 delete e872
@@ -506,6 +516,7 @@ devices_other e337
 dialer_sip e0bb
 dialpad e0bc
 diamond ead5
+difference eb7d
 dining eff4
 dinner_dining ea57
 directions e52e
@@ -549,6 +560,7 @@ do_not_touch f1b0
 dock e30e
 document_scanner e5fa
 domain e7ee
+domain_add eb62
 domain_disabled e0ef
 domain_verification ef4c
 done e876
@@ -602,6 +614,7 @@ egg eacc
 egg_alt eac8
 eject e8fb
 elderly f21a
+elderly_woman eb69
 electric_bike eb1b
 electric_car eb1c
 electric_moped eb1d
@@ -635,6 +648,7 @@ event e878
 event_available e614
 event_busy e615
 event_note e616
+event_repeat eb7b
 event_seat e903
 exit_to_app e879
 expand e94f
@@ -746,6 +760,7 @@ fmd_good f00f
 foggy e818
 folder e2c7
 folder_delete eb34
+folder_off eb83
 folder_open e2c8
 folder_shared e2c9
 folder_special e617
@@ -771,6 +786,7 @@ format_line_spacing e240
 format_list_bulleted e241
 format_list_numbered e242
 format_list_numbered_rtl e267
+format_overline eb65
 format_paint e243
 format_quote e244
 format_shapes e25e
@@ -805,6 +821,7 @@ gesture e155
 get_app e884
 gif e908
 gif_box e7a3
+girl eb68
 gite e58b
 golf_course eb45
 gpp_bad f012
@@ -875,6 +892,8 @@ history e889
 history_edu ea3e
 history_toggle_off f17d
 hive eaa6
+hls eb8a
+hls_off eb8c
 holiday_village e58a
 home e88a
 home_filled e9b2
@@ -898,6 +917,7 @@ house_siding f202
 houseboat e584
 how_to_reg e174
 how_to_vote e175
+html eb7e
 http e902
 https e88d
 hub e9f4
@@ -928,6 +948,8 @@ insert_link e250
 insert_page_break eaca
 insert_photo e251
 insights f092
+install_desktop eb71
+install_mobile eb72
 integration_instructions ef54
 interests e7c8
 interpreter_mode e83b
@@ -939,6 +961,7 @@ invert_colors_on e891
 ios_share e6b8
 iron e583
 iso e3f6
+javascript eb7c
 join_full eaeb
 join_inner eaf4
 join_left eaf2
@@ -946,6 +969,7 @@ join_right eaea
 kayaking e50c
 kebab_dining e842
 key e73c
+key_off eb84
 keyboard e312
 keyboard_alt f028
 keyboard_arrow_down e313
@@ -1159,7 +1183,9 @@ motion_photos_pause f227
 motion_photos_paused e9c2
 motorcycle e91b
 mouse e323
+move_down eb61
 move_to_inbox e168
+move_up eb64
 movie e02c
 movie_creation e404
 movie_filter e43a
@@ -1192,6 +1218,7 @@ network_locked e61a
 network_wifi e1ba
 new_label e609
 new_releases e031
+newspaper eb81
 next_plan ef5d
 next_week e16a
 nfc e1bb
@@ -1352,6 +1379,7 @@ photo_library e413
 photo_size_select_actual e432
 photo_size_select_large e433
 photo_size_select_small e434
+php eb8f
 piano e521
 piano_off e520
 picture_as_pdf e415
@@ -1382,6 +1410,7 @@ playlist_add_check e065
 playlist_add_check_circle e7e6
 playlist_add_circle e7e5
 playlist_play e05f
+playlist_remove eb80
 plumbing f107
 plus_one e800
 podcasts f048
@@ -1422,6 +1451,7 @@ qr_code_scanner f206
 query_builder e8ae
 query_stats e4fc
 question_answer e8af
+question_mark eb8b
 queue e03c
 queue_music e03d
 queue_play_next e066
@@ -1520,8 +1550,10 @@ satellite e562
 satellite_alt eb3a
 save e161
 save_alt e171
+save_as eb60
 saved_search ea11
 savings e2eb
+scale eb5f
 scanner e329
 scatter_plot e268
 schedule e8b5
@@ -1600,6 +1632,7 @@ shopify ea9d
 shopping_bag f1cc
 shopping_basket e8cb
 shopping_cart e8cc
+shopping_cart_checkout eb88
 short_text e261
 shortcut f060
 show_chart e6e1
@@ -1626,6 +1659,7 @@ signal_wifi_off e1da
 signal_wifi_statusbar_4_bar f065
 signal_wifi_statusbar_connected_no_internet_4 f066
 signal_wifi_statusbar_null f067
+signpost eb91
 sim_card e32b
 sim_card_alert e624
 sim_card_download f068
@@ -1696,8 +1730,10 @@ sports_tennis ea32
 sports_volleyball ea31
 square eb36
 square_foot ea49
+ssid_chart eb66
 stacked_bar_chart e9e6
 stacked_line_chart f22b
+stadium eb90
 stairs f1a9
 star e838
 star_border e83a
@@ -1801,6 +1837,7 @@ taxi_alert ef74
 telegram ea6b
 temple_buddhist eab3
 temple_hindu eaaf
+terminal eb8e
 terrain e564
 text_decrease eadd
 text_fields e262
@@ -1901,6 +1938,7 @@ video_call e070
 video_camera_back f07f
 video_camera_front f080
 video_collection e04a
+video_file eb87
 video_label e071
 video_library e04a
 video_settings ea75
@@ -1915,15 +1953,20 @@ view_carousel e8eb
 view_column e8ec
 view_comfortable e42a
 view_comfy e42a
+view_comfy_alt eb73
 view_compact e42b
+view_compact_alt eb74
+view_cozy eb75
 view_day e8ed
 view_headline e8ee
 view_in_ar e9fe
+view_kanban eb7f
 view_list e8ef
 view_module e8f0
 view_quilt e8f1
 view_sidebar f114
 view_stream e8f2
+view_timeline eb85
 view_week e8f3
 vignette e435
 villa e586
@@ -1939,6 +1982,7 @@ volume_off e04f
 volume_up e050
 volunteer_activism ea70
 vpn_key e0da
+vpn_key_off eb7a
 vpn_lock e62f
 vrpano f082
 wallet_giftcard e8f6
@@ -1970,6 +2014,7 @@ web e051
 web_asset e069
 web_asset_off e4f7
 web_stories e595
+webhook eb92
 wechat ea81
 weekend e16b
 west f1e6
@@ -1981,9 +2026,11 @@ widgets e1bd
 wifi e63e
 wifi_calling ef77
 wifi_calling_3 f085
+wifi_channel eb6a
 wifi_find eb31
 wifi_lock e1e1
 wifi_off e648
+wifi_password eb6b
 wifi_protected_setup f0fc
 wifi_tethering e1e2
 wifi_tethering_error ead9
