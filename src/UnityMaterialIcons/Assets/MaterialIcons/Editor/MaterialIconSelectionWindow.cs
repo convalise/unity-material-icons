@@ -14,7 +14,7 @@ public class MaterialIconSelectionWindow : EditorWindow
 	private static readonly Color darkColor = new Color(0.196f, 0.196f, 0.196f);
 	private static readonly Color lightColor = new Color(0.804f, 0.804f, 0.804f);
 
-	private int iconSize = 60;
+	private int iconSize = 58;
 	private int labelHeight = 24;
 	private int spacing = 10;
 	private bool showNames = true;
