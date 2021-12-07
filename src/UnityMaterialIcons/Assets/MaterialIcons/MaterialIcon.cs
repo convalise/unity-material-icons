@@ -47,7 +47,7 @@ public class MaterialIcon : Text
 	/// <summary> Searches for the \"MaterialIcons-Regular\" font inside the project. </summary>
 	public void LoadFont()
 	{
-		foreach(string guid in UnityEditor.AssetDatabase.FindAssets("MaterialIcons-Regular"))
+		foreach(string guid in UnityEditor.AssetDatabase.FindAssets("t:Font MaterialIcons-Regular"))
 		{
 			string assetPath = UnityEditor.AssetDatabase.GUIDToAssetPath(guid);
 

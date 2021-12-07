@@ -20,7 +20,8 @@ public class MaterialIconEditor : UnityEditor.UI.TextEditor
 	private MaterialIcon icon;
 	private Font MaterialIconsRegular;
 	private GUIStyle iconStyle;
-	private GUIContent iconTooltip;
+	private GUIContent iconTooltip = new GUIContent();
+	private GUIContent mixedContent = new GUIContent("\u2014", "Mixed Values");
 
 	protected override void OnEnable()
 	{
@@ -45,7 +46,7 @@ public class MaterialIconEditor : UnityEditor.UI.TextEditor
 		iconStyle.alignment = TextAnchor.MiddleCenter;
 		iconStyle.normal.textColor = iconStyle.active.textColor = iconStyle.focused.textColor = iconStyle.hover.textColor = EditorGUIUtility.isProSkin ? lightColor : darkColor;
 
-		iconTooltip = new GUIContent(string.Empty, icon.iconUnicode);
+		iconTooltip.tooltip = icon.iconUnicode;
 
 		spText = serializedObject.FindProperty("m_Text");
 		spColor = serializedObject.FindProperty("m_Color");
@@ -94,14 +95,14 @@ public class MaterialIconEditor : UnityEditor.UI.TextEditor
 
 	private void DoIconControl(Rect position, SerializedProperty text, System.Action callback)
 	{
+		bool mixedValues = (text.hasMultipleDifferentValues || ((text.stringValue != null) && (text.stringValue.Length > 1)));
 		GUIContent guiContent = new GUIContent("Icon");
-        GUIContent mixedContent = new GUIContent("\u2014", "Mixed Values");
-		EditorGUI.BeginProperty(position, guiContent, spText);
+		EditorGUI.BeginProperty(position, guiContent, text);
 		Rect rect = EditorGUI.PrefixLabel(position, guiContent);
 		rect.width = rect.height;
-		if(GUI.Button(rect, text.hasMultipleDifferentValues ? mixedContent : iconTooltip))
+		if(GUI.Button(rect, mixedValues ? mixedContent : iconTooltip))
 			callback.Invoke();
-		GUI.Label(rect, text.hasMultipleDifferentValues ? string.Empty : spText.stringValue, iconStyle);
+		GUI.Label(rect, mixedValues ? string.Empty : text.stringValue, iconStyle);
 		EditorGUI.EndProperty();
 	}
 
