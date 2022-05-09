@@ -175,6 +175,7 @@ arrow_drop_up e5c7
 arrow_forward e5c8
 arrow_forward_ios e5e1
 arrow_left e5de
+arrow_outward f8ce
 arrow_right e5df
 arrow_right_alt e941
 arrow_upward e5d8
@@ -188,6 +189,7 @@ assignment_late e85f
 assignment_return e860
 assignment_returned e861
 assignment_turned_in e862
+assist_walker f8d5
 assistant e39f
 assistant_direction e988
 assistant_navigation e989
@@ -255,6 +257,7 @@ bento f1f4
 bike_scooter ef45
 biotech ea3a
 blender efe3
+blind f8d6
 blinds e286
 blinds_closed ec1f
 block e14b
@@ -447,6 +450,7 @@ connect_without_contact f223
 connected_tv e998
 connecting_airports e7c9
 construction ea3c
+contact_emergency f8d1
 contact_mail e0d0
 contact_page f22e
 contact_phone e0cf
@@ -578,6 +582,9 @@ disc_full e610
 discord ea6c
 discount ebc9
 display_settings eb97
+diversity_1 f8d7
+diversity_2 f8d8
+diversity_3 f8d9
 dnd_forwardslash e611
 dns e875
 do_disturb f08c
@@ -708,6 +715,11 @@ exposure_zero e3cf
 extension e87b
 extension_off e4f5
 face e87c
+face_2 f8da
+face_3 f8db
+face_4 f8dc
+face_5 f8dd
+face_6 f8de
 face_retouching_natural ef4e
 face_retouching_off f007
 facebook f234
@@ -895,6 +907,8 @@ group_off e747
 group_remove e7ad
 group_work e886
 groups f233
+groups_2 f8df
+groups_3 f8e0
 h_mobiledata f018
 h_plus_mobiledata f019
 hail e9b1
@@ -1156,11 +1170,15 @@ lte_plus_mobiledata f02d
 luggage f235
 lunch_dining ea61
 lyrics ec0b
+macro_off f8d2
 mail e158
 mail_lock ec0a
 mail_outline e0e1
 male e58e
 man e4eb
+man_2 f8e1
+man_3 f8e2
+man_4 f8e3
 manage_accounts f02e
 manage_history ebe7
 manage_search f02f
@@ -1407,6 +1425,9 @@ perm_media e8a7
 perm_phone_msg e8a8
 perm_scan_wifi e8a9
 person e7fd
+person_2 f8e4
+person_3 f8e5
+person_4 f8e6
 person_add e7fe
 person_add_alt ea4d
 person_add_alt_1 ef65
@@ -1714,6 +1735,7 @@ settings_suggest f05e
 settings_system_daydream e1c3
 settings_voice e8c8
 severe_cold ebd3
+shape_line f8d3
 share e80d
 share_arrival_time e524
 share_location f05f
@@ -2033,7 +2055,9 @@ umbrella f1ad
 unarchive e169
 undo e166
 unfold_less e5d6
+unfold_less_double f8cf
 unfold_more e5d7
+unfold_more_double f8d0
 unpublished f236
 unsubscribe e0eb
 upcoming f07e
@@ -2171,6 +2195,7 @@ wind_power ec0c
 window f088
 wine_bar f1e8
 woman e13e
+woman_2 f8e7
 woo_commerce ea6d
 wordpress ea9f
 work e8f9
