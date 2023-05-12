@@ -2,11 +2,13 @@
 
 [![paypal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YAUUBSC3KYUEC&source=url)
 
-This project simplifies the usage of Google's Material Design icons on Unity.
+Add-on that simplifies the usage of Google's Material Design icons font on Unity. The motivation is to have a lightweight set of standardized icons in order to provide the same pattern and design throughout the whole application UI improving UX.
 
 Supported Unity versions are 2017.1 or higher.
 
 ![preview](doc/preview.png)
+
+![sample](doc/sample.png)
 
 ## Quickstart
 
