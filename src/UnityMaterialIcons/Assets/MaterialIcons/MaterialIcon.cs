@@ -7,6 +7,15 @@ namespace Google.MaterialDesign.Icons
 
 public class MaterialIcon : Text
 {
+	[SerializeField, Range(0f, 10f)]
+	private float _fontScale = 1f;
+
+	public float fontScale
+	{
+		get { return this._fontScale; }
+		set { this._fontScale = value; UpdateFontSize(); }
+	}
+
 	public string iconUnicode
 	{
 		get { return System.Convert.ToString(char.ConvertToUtf32(base.text, 0), 16); }
@@ -42,6 +51,7 @@ public class MaterialIcon : Text
 	{
 		base.OnValidate();
 		base.SetLayoutDirty();
+		UpdateFontSize();
 	}
 
 	/// <summary> Searches for the \"MaterialIcons-Regular\" font inside the project. </summary>
@@ -77,7 +87,12 @@ public class MaterialIcon : Text
 	protected override void OnRectTransformDimensionsChange()
 	{
 		base.OnRectTransformDimensionsChange();
-		base.fontSize = Mathf.FloorToInt(Mathf.Min(base.rectTransform.rect.width, base.rectTransform.rect.height));
+		UpdateFontSize();
+	}
+
+	private void UpdateFontSize()
+	{
+		base.fontSize = Mathf.FloorToInt(Mathf.Min(base.rectTransform.rect.width, base.rectTransform.rect.height) * this._fontScale);
 	}
 
 }

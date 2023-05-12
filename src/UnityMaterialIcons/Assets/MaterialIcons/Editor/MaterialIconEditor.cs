@@ -16,6 +16,7 @@ public class MaterialIconEditor : UnityEditor.UI.TextEditor
 	private SerializedProperty spColor;
 	private SerializedProperty spRaycastTarget;
 	private SerializedProperty spAlignment;
+	private SerializedProperty spFontScale;
 
 	private MaterialIcon icon;
 	private Font MaterialIconsRegular;
@@ -52,6 +53,7 @@ public class MaterialIconEditor : UnityEditor.UI.TextEditor
 		spColor = serializedObject.FindProperty("m_Color");
 		spRaycastTarget = serializedObject.FindProperty("m_RaycastTarget");
 		spAlignment = serializedObject.FindProperty("m_FontData.m_Alignment");
+		spFontScale = serializedObject.FindProperty("_fontScale");
 	}
 
 	public override void OnInspectorGUI()
@@ -87,6 +89,7 @@ public class MaterialIconEditor : UnityEditor.UI.TextEditor
 
 		EditorGUILayout.Space();
 
+		EditorGUILayout.PropertyField(spFontScale);
 		Rect alignmentRect = GUILayoutUtility.GetRect(EditorGUIUtility.singleLineHeight, EditorGUIUtility.singleLineHeight, GUILayout.ExpandWidth(true), GUILayout.ExpandHeight(false));
 		DoTextAlignmentControl(alignmentRect, spAlignment);
 
